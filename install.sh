@@ -2,7 +2,7 @@
 
 if [ -f "$HOME/.vimrc_old" ]; then
 	echo "It would seem you already install my .vimrc file ?"
-	echo "To reinstall it please unistall, run \".uninstall.sh; ./install.sh\""
+	echo "To reinstall it please unistall, run \"./uninstall.sh; ./install.sh\""
 else
 	if [ -f "$HOME/.vimrc" ]; then
 		mv $HOME/.vimrc $HOME/.vimrc_old
